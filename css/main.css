@@ -6,6 +6,7 @@
 */
 
 body {
+  font-family: 'Poppins', sans-serif;
   /* Default font family and font color */
 }
 
@@ -16,14 +17,65 @@ p, li, textarea, label, input, select {
 
 
 h1 {
+  font-size: 80px;
+  text-align: center;
+  font-family: Poppins; 
+  background-color: #fcce00;
+  color: #ffffff;
+  background-position-x: center;
+  background-position-y: center;
+  margin: 8px 0;
+
    /* Default font, size, and margins */
 }
 
 h2 {
+  font-size: 38px;
+  text-align: center;
+  font-family: Poppins; 
+  background-color:#ff6b00;
+  color: #ffffff;
+  background-position-x: center;
+  background-position-y: center;
+  margin: 8px 0;
+
   /* Default font, size, and margins */
 }
 
+.banniere1{ 
+  height: 32px;
+  margin: 8px 0;
+  opacity: 0.81;
+  background-color: #e02020;
+  margin: 8px 0;
+}
+
+.banniere2{
+  height: 16px;
+  margin: 8px 0;
+  opacity: 0.81;
+  background-color: #b620e0;
+  margin: 8px 0;
+}
+
+.banniere3{
+  height: 8px;
+  margin: 8px 0 0;
+  opacity: 0.81;
+  background-color: #6236ff;
+  margin: 8px 0;
+}
+
+
 h3 {
+  font-size: 40px;
+  text-align: center;
+  font-family: Poppins; 
+  color:#231f20;
+  background-position-x: center;
+  background-position-y: center;
+  margin: 64px 0;
+  
   /* Default font, size, and margins */
 }
 
