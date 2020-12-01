@@ -81,10 +81,12 @@ h3 {
 }
 
 .ordinateur-1 {
+  mix-blend-mode: darken;
 }
   
 
 .ordinateur-2 {
+  mix-blend-mode: darken;
 }
 
 .flexbox-container {
@@ -106,10 +108,6 @@ h3 {
   font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #231f20;
 }
@@ -128,10 +126,6 @@ h3 {
   font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #231f20;
 }
@@ -147,29 +141,27 @@ h3 {
   font-family: Poppins;
   font-size: 20px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
+  text-align: right;
   color: #fcce00;
 }
 
 .toucheblanche2 {
-  width: 113px;
-  height: 28px;
   font-family: Poppins;
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
+  text-align: right;
   color: #fcce00;
 }
 
 .feature-1{
-  margin-left: 695px ;
-  margin-right: 0px;
-  object-fit: contain;
-  opacity: 0.9;
+  mix-blend-mode: darken;
+}
+
+.feature-2{
+  mix-blend-mode: darken;
+}
+
+.feature-3{
   mix-blend-mode: darken;
 }
 
@@ -177,16 +169,23 @@ h3 {
   margin: 32px 153px 32px 0;
   font-family: Poppins;
   font-size: 24px;
-  margin-left: 60px;
-  margin-right: 883px;
+  text-align: left;
   color: black;
 }
 .toucheblanche3{
   font-family: Poppins;
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   color: black;
+}
+.subtitle3{
+  margin: 0 0 32px 32px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #231f20;
 }
 
 h4 {
