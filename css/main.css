@@ -103,6 +103,12 @@ h3 {
 .flexbox-container > div:first-child {
 	margin-right: 20px;
 }
+
+.bloc-content{
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
 .subtitle1{
   margin: 0 31px 34px 0;
   font-family: Poppins;
@@ -153,15 +159,7 @@ h3 {
   color: #fcce00;
 }
 
-.feature-1{
-  mix-blend-mode: darken;
-}
-
-.feature-2{
-  mix-blend-mode: darken;
-}
-
-.feature-3{
+.feature-123{
   mix-blend-mode: darken;
 }
 
@@ -182,11 +180,23 @@ h3 {
 .subtitle3{
   margin: 0 0 32px 32px;
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   text-align: left;
   color: #231f20;
 }
+
+.flexbox-vignettes {
+  display: grid; /* une grille de 4 colonnes égales */
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* repeat(4, 1fr) */
+  grid-gap: 20px; /* gouttière de 20px */
+  margin-left: 1em;
+  margin-right: 1em;
+  grid-column: span 3; /* trois cellules (cases) horizontales */
+  grid-row: span 3;    /* et deux verticales */
+}
+
+
 
 h4 {
   /* Default font, size, and margins */
