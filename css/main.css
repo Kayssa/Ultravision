@@ -149,17 +149,20 @@ h3 {
   font-weight: bold;
   text-align: right;
   color: #fcce00;
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 5px 10px 5px 10px;
+  float: right;
 }
 
-.toucheblanche2 {
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: right;
-  color: #fcce00;
+.feature-1{
+  mix-blend-mode: darken;
 }
 
-.feature-123{
+.feature-2{
+  mix-blend-mode: darken;
+}
+.feature-3{
   mix-blend-mode: darken;
 }
 
@@ -186,12 +189,20 @@ h3 {
   color: #231f20;
 }
 
+.latest-releases{
+  margin: 0 211.5px 64px 208.5px;
+  color: #231f20;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
 .flexbox-vignettes {
   display: grid; /* une grille de 4 colonnes égales */
   grid-template-columns: 1fr 1fr 1fr 1fr; /* repeat(4, 1fr) */
   grid-gap: 20px; /* gouttière de 20px */
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 4em;
+  margin-right: 4em;
   grid-column: span 3; /* trois cellules (cases) horizontales */
   grid-row: span 3;    /* et deux verticales */
 }
