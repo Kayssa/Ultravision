@@ -81,11 +81,20 @@ h3 {
 }
 
 .ordinateur-1 {
+  background-image: url(../img/bg-yellow.png);
+  background-repeat: repeat;
+  background-size: contain;
   mix-blend-mode: darken;
 }
-  
+
+.img-right {
+  float: right;
+}
 
 .ordinateur-2 {
+  background-image: url(../img/bg-orange.png);
+  background-repeat: repeat;
+  background-size: contain;
   mix-blend-mode: darken;
 }
 
@@ -143,7 +152,7 @@ h3 {
   color: #231f20;
 }
 
-.toucheblanche1 {
+.learnmore1 {
   font-family: Poppins;
   font-size: 20px;
   font-weight: bold;
@@ -155,14 +164,47 @@ h3 {
   float: right;
 }
 
+.learnmore2 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  color:orange;
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 5px 10px 5px 10px;
+  float: right;
+}
+
+.learnmore3 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  color:white;
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 5px 10px 5px 10px;
+  float: left;
+}
+
 .feature-1{
+  background-image: url(../img/bg-red.png);
+  background-repeat: repeat;
+  background-size: contain;
   mix-blend-mode: darken;
 }
 
 .feature-2{
+  background-image: url(../img/bg-violet.png);
+  background-repeat: repeat;
+  background-size: contain;
   mix-blend-mode: darken;
 }
 .feature-3{
+  background-image: url(../img/bg-blue.png);
+  background-repeat: repeat;
+  background-size: contain;
   mix-blend-mode: darken;
 }
 
@@ -171,14 +213,14 @@ h3 {
   font-family: Poppins;
   font-size: 24px;
   text-align: left;
-  color: black;
+  color:white;
 }
 .toucheblanche3{
   font-family: Poppins;
   font-size: 20px;
   font-weight: bold;
   text-align: left;
-  color: black;
+  color: white;
 }
 .subtitle3{
   margin: 0 0 32px 32px;
@@ -186,14 +228,15 @@ h3 {
   font-size: 32px;
   font-weight: bold;
   text-align: left;
-  color: #231f20;
+  color: white;
 }
 
 .latest-releases{
   margin: 0 211.5px 64px 208.5px;
-  color: #231f20;
+  color: white;
   font-size: 40px;
   font-weight: 900;
+  padding-top: 1em;
   text-align: center;
 }
 
@@ -207,7 +250,9 @@ h3 {
   grid-row: span 3;    /* et deux verticales */
 }
 
-
+.color-black {
+  background-color: #231f20;
+}
 
 h4 {
   /* Default font, size, and margins */
