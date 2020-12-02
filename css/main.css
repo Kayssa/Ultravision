@@ -137,7 +137,7 @@ h3 {
 }
 
 .subtitle2{
-  margin: 0 0 32px 32px;
+  margin:65px 0 32px 32px;
   font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
@@ -145,7 +145,7 @@ h3 {
   color: #231f20;
 }
 .paragraphe2{
-  margin: 32px 14px 32px 32px;
+  margin: 32px 14px 47px 32px;
   font-family: Poppins;
   font-size: 16px;
   text-align: justify;
@@ -215,13 +215,7 @@ h3 {
   text-align: left;
   color:white;
 }
-.toucheblanche3{
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: left;
-  color: white;
-}
+
 .subtitle3{
   margin: 0 0 32px 32px;
   font-family: Poppins;
@@ -229,6 +223,12 @@ h3 {
   font-weight: bold;
   text-align: left;
   color: white;
+}
+
+.advence{
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .latest-releases{
