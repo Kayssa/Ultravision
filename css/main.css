@@ -12,6 +12,7 @@ body {
 }
 
 p, li, textarea, label, input, select {
+  font-size: 14px;
   /* Default font size and line height */
 }
 
@@ -163,6 +164,10 @@ h3 {
   padding: 5px 10px 5px 10px;
   float: right;
 }
+.learnmore1:hover{
+  transform: scale(1.1);
+  color:#fcce00;
+}
 
 .learnmore2 {
   font-family: Poppins;
@@ -176,6 +181,11 @@ h3 {
   float: right;
 }
 
+.learnmore2:hover{
+  transform: scale(1.1);
+  color:orange;
+}
+
 .learnmore3 {
   font-family: Poppins;
   font-size: 20px;
@@ -186,6 +196,10 @@ h3 {
   border: 2px solid;
   padding: 5px 10px 5px 10px;
   float: left;
+}
+.learnmore3:hover{
+  transform: scale(1.1);
+  color:white;
 }
 
 .feature-1{
@@ -252,6 +266,87 @@ h3 {
 
 .color-black {
   background-color: #231f20;
+}
+
+.game{
+  position: relative;
+  max-width: 320px;
+  margin: auto;
+  color:white;
+  margin-bottom: 32px;
+}
+
+.game-title1{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  color: yellow;
+}
+
+.game-title2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  color: orange;
+}
+
+.game-categorie{
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.game-content{
+  opacity:0;
+  transform: translateY(10px);
+  transition: opacity 200ms;transform: 200ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba( 0, 0, 0, .81);
+  border-radius: 15px;
+  font-size: 16px;
+  text-align: center;
+  padding: 16px;
+}
+
+.game-description{
+font-size: 15px;
+font-weight: lighter;
+}
+
+.game:hover .game-content{
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+.contact{
+  color: white;
+  padding-top: 1em;
+  font-weight: bold;
+}
+
+.form-row{
+  font-size: 15px;
+  line-height: 2.5;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  padding-bottom: 2em;
+  font-family: Poppins;
+}
+
+@media screen and (max-width:1000px){
+  .flexbox-vignettes{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:700px){
+  .flexbox-vignettes{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 h4 {
